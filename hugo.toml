@@ -1,8 +1,8 @@
 baseURL = 'https://blog.nannannanhe.github.io/'
 languageCode = 'zh-TW'
 title = 'Personal Open Notes'
-theme = 'ananke'
+theme = 'PaperMod'
 
 [caches]
-  [caches.images]
-    dir = ':cacheDir/images'
+[caches.images]
+dir = ':cacheDir/images'
