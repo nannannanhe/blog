@@ -1,8 +1,35 @@
 baseURL = 'https://nannannanhe.github.io/blog/'
 languageCode = 'zh-TW'
-title = 'Personal Open Notes'
+title = 'nannannanhe'
+description = "Personal open notes by nannannanhe. Learning in public."
 theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+googleAnalytics = 'G-EFWFTFTSVG'
 
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
+
+[params]
+env = 'production'
+title = 'nannannanhe'
+description = "Personal open notes by nannannanhe. Learning in public."
+keywords = ['blog', 'open notes', 'kaggle', 'hugo', 'aws']
+author = 'nannannanhe'
+defaultTheme = 'light'
+
+# home-info mode
+[params.homeInfoParams]
+title = 'Personal Open Notes'
+content = """
+Learning in public.<br>
+Mainly in Traditional Chinese.
+"""
+
+[markup.goldmark.renderer]
+unsafe = true
