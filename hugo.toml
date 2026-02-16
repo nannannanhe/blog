@@ -22,6 +22,7 @@ description = "Personal open notes by nannannanhe. Learning in public."
 keywords = ['blog', 'open notes', 'kaggle', 'hugo', 'aws']
 author = 'nannannanhe'
 defaultTheme = 'light'
+ShowBreadCrumbs = true
 
 # home-info mode
 [params.homeInfoParams]
