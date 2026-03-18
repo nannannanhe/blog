@@ -1,8 +1,9 @@
 +++
-date = '2026-03-16T22:34:01+09:00'
+date = '2026-03-18'
 draft = false
 title = 'markdown 的語法和 layout 確認'
 description = "personal memo"
+tags = ['markdown', 'syntax'] 
 +++
 
 ## 標題 (H1~6)
