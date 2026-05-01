@@ -1,5 +1,6 @@
 baseURL = 'https://nannannanhe.github.io/blog/'
 languageCode = 'zh-TW'
+timeZone = "Asia/Tokyo"
 title = 'nannannanhe'
 description = "Personal open notes by nannannanhe. Learning in public."
 theme = 'PaperMod'
