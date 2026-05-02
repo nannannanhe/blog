@@ -1,7 +1,7 @@
 +++
 date = '2026-05-02'
 draft = false
-title = 'Hugo 常用指令 & 遇到的小陷阱'
+title = 'Hugo 常用指令 & 遇到的小問題'
 description = "記錄一下自己常用的指令，其他可用參數可由公式的Docs取得"
 tags = ["hugo"]
 +++
@@ -40,7 +40,7 @@ hugo server -D
 
 ---
 
-## 遇到的小陷阱
+## 遇到的小問題
 
 ### Q: 明明使用`hugo server -D`，draft的文章卻沒有出現？
 
@@ -48,3 +48,23 @@ hugo server -D
 我自己遇到的情形是，我的date指定到日 (ex: `2026-05-02`)，但明明local time已經是 `2026-05-02T00:30:00+09:00`，draft的文章卻沒顯示在內建的server上。  
 原因是local time和server time的不一致。  
 我的解法是在`hugo.toml`裡加上`timeZone = "Asia/Tokyo"`指定Timezone。
+
+### Q: 以`hugo new [filepath]`新增的檔案的Front matter的欄位不夠 (ex: 沒有tags或description)
+
+可以更改`archetypes/default.md`來指定想要的Front matter欄位
+
+Front matter是在本文之前像是metadata的欄位，ex:
+
+```
++++
+date = '2026-05-02'
+draft = false
+title = 'Hugo 常用指令 & 遇到的小問題'
+description = "記錄一下自己常用的指令，其他可用參數可由公式的Docs取得"
+tags = ["hugo"]
++++
+```
+
+#### Reference
+
+- [Hugo Docs (Front matter)](https://gohugo.io/content-management/front-matter/ "https://gohugo.io/content-management/front-matter/")
