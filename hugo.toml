@@ -10,6 +10,16 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+[[menu.main]]
+name = "Archives"
+url = "/archives/"
+weight = 20
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 30
+
 googleAnalytics = 'G-EFWFTFTSVG'
 
 [caches]
@@ -24,6 +34,7 @@ keywords = ['blog', 'open notes', 'kaggle', 'hugo', 'aws']
 author = 'nannannanhe'
 defaultTheme = 'light'
 ShowBreadCrumbs = true
+mainSections = ["posts"]
 
 # home-info mode
 [params.homeInfoParams]
