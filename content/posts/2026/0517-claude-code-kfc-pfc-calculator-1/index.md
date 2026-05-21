@@ -18,11 +18,21 @@ repo: https://github.com/nannannanhe/kfc-jp-pfc-checker
 
 如果可以從 pdf 抽出各餐點成份含量的 json 嵌在 html 裡，應該可以只靠前端做出功能類似的簡易 PFC 計算器。功能包含選擇各類餐點(可複選，也可單品選擇多份)，並計算加總的成份含量。
 
-## 使用 claude.ai 製作 CLAUDE.md
+## 嘗試 Claude Code?
 
-在之前就曾經就這個idea和各家ai商量過想法和架構，打算用沒有碰過的Svelte來做。
+就這個idea和各家ai (ChatGPT, Gemini) 商量過想法和架構後，打算用沒有碰過的Svelte來做。
 
 中間忙別的事，放置這個idea一段時間後，有一陣子一直看到各種文章說 Claude Code 多厲害又多厲害，又剛好聽到敏迪也在 podcast 中介紹，想說玩玩看，決定用這個idea來試。
 
-其實就連claude.ai也是第一次用。(不過之前用 VsCode GitHub Copilot 時應該是有用過Claude家的model) 因為我的ChatGPT當時不知為何沉迷於先說我說得很對然後否定我說我走偏了他想要「給我一個更乾淨的結論」然後硬要給我建議，搞得我很煩，所以claude.ai不會硬給建議的風格給我非常好的印象。  
-順帶一提，在我和gemini討論Claude和ChatGPT的行為後，ChatGPT突然就收歛了，why???
+其實就連 claude.ai 也是第一次用。(不過之前工作用 VsCode GitHub Copilot 時應該是有用過 Claude 家的 model ) 因為我的 ChatGPT 當時不知為何沉迷於先說我說得很對然後否定我說我走偏了他想要「給我一個更乾淨的結論」然後硬要給我建議，搞得我很煩，所以 claude.ai 不會硬給建議的風格給我非常好的印象。
+
+順帶一提，在我和 gemini 討論 Claude 和 ChatGPT 的談話行為和風格後，ChatGPT 突然就收歛了，why???
+
+## 前期資料處理 (PDF 資料轉 JSON)
+
+在暫不考慮之後要自動化更新數據的情況下，我嘗試把[KFC官方公佈的營養資料](https://www.kfc.co.jp/food_information)PDF直接丟給 claude.ai 讓它從日文文件抽出品項名、
+
+## 使用 claude.ai 製作 CLAUDE.md
+
+連結是和 claude.ai 討論後得到的初版CLAUDE.md
+https://github.com/nannannanhe/kfc-jp-pfc-checker/commit/771b1ac3f8f13379845bd193df655e095b6fc089
