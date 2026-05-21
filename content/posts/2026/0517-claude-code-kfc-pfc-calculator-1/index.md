@@ -34,5 +34,5 @@ repo: https://github.com/nannannanhe/kfc-jp-pfc-checker
 
 ## 使用 claude.ai 製作 CLAUDE.md
 
-連結是和 claude.ai 討論後得到的初版CLAUDE.md
+連結是和 claude.ai 討論後得到的初版CLAUDE.md  
 https://github.com/nannannanhe/kfc-jp-pfc-checker/commit/771b1ac3f8f13379845bd193df655e095b6fc089
